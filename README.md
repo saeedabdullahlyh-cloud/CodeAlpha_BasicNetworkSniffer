@@ -1,36 +1,39 @@
-# CodeAlpha Basic Network Sniffer
+# Basic Network Sniffer
 
-## Description
-This project is developed as part of the CodeAlpha Cyber Security Internship.
+## CodeAlpha Cyber Security Internship - Task 1
 
-## Objective
-The purpose of this project is to capture live network packets and display useful information such as source IP address, destination IP address, protocol, packet length, and payload.
+### Description
+This project is a Basic Network Sniffer developed using Python and Scapy. It captures live network packets and displays the Source IP Address, Destination IP Address, Protocol, Packet Length, and Payload.
 
 ## Features
 - Capture live network packets
-- Display Source IP
-- Display Destination IP
-- Display Protocol
+- Display Source and Destination IP
+- Detect TCP, UDP, and ICMP protocols
 - Display Packet Length
 - Display Packet Payload
 
 ## Technologies Used
-- Python
+- Python 3
 - Scapy
 - Npcap
+- Visual Studio Code
 
 ## Installation
+
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the Project
+## Run
+
 ```bash
 python network_sniffer.py
 ```
 
 ## Author
-Abdullah Saeed
 
-## Internship
-CodeAlpha Cyber Security Internship
+**Abdullah Saeed**
+
+**Student ID:** CA/DF1/197436
+
+**CodeAlpha Cyber Security Internship**
